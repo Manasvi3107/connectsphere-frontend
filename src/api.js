@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api', // ✅ proxy handles localhost:5000
+    baseURL: 'https://connectsphere-backend-cssq.onrender.com/api',
   timeout: 10000,
 });
 
