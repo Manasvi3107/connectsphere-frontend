@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({
     baseURL: 'https://connectsphere-backend-cssq.onrender.com/api',
-  timeout: 10000,
+  timeout: 30000,
 });
 
 // Attach token automatically
